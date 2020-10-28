@@ -1,6 +1,6 @@
 Introductie = ('Hallo Dit is mijn eindproduct gebasseerd over het verhaal Zafel. De Syrische dichter Zafer deelt zijn aangrijpende vluchtverhaal op basis- en middelbare scholen. Die voorlichtingslessen verzorgt hij samen met vrijwilliger Harry, die inmiddels naadloos is ingespeeld op Zafers bijzondere en beeldende vertellingen. ''Ik wil dat leerlingen echt ervaren hoe angst, vluchten en hoop voelt.')
 
-import time 
+import time
 
 print("")
 
@@ -12,7 +12,7 @@ def question0():
     print("")
     Vraag0 = input("Je bent bij een onbekend zone. ")
 
-def question1(): 
+def question1():
     Vraag1 = input("Wil je graag naar het volgende Stukje (A) of stoppen (B). ")
 
     if Vraag1 == "A" or Vraag1 == "a":
@@ -45,6 +45,7 @@ def question2():
         print("")
 
     elif Vraag2 == "G" or Vraag2 == "g":
+        time.sleep(1)
         print("")
         print("")
         question9()
