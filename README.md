@@ -9,7 +9,7 @@ Ik vind het zelf moeilijke maar leuke opdrachten.
 ###
 ----------------------------------
  - Github Link 
- - Flowchart van eindopdracht 
+ - Flowchart van het eindproduct
  ---------------------------------
  - Filmpje Microbit Figuur
  - Filmpje Microbit met Speaker en de code daarvan. 
