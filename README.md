@@ -9,13 +9,14 @@ Ik vind het zelf moeilijke maar leuke opdrachten.
 ###
 ----------------------------------
  - Github Link 
+ - Flowchart van eindopdracht 
  ---------------------------------
  - Filmpje Microbit Figuur
  - Filmpje Microbit met Speaker en de code daarvan. 
  - Filmpje Microbit Eindopdracht (Kompass)
  ---------------------------------
  - Hello You.py 
- - Ditbenik.py en orc.py
+ - Ditbenik.py en uitbreiding daarvan. 
  - Hetverhaalvan.py
  ---------------------------------
  - Ik als nieuwkomer op Mediacollege
