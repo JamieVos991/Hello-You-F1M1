@@ -7,4 +7,8 @@ Ik vind het zelf moeilijke maar leuke opdrachten.
 
 ### Opdrachten in deze repository:
 
- - Microbit 
+ - Github Link 
+
+ - Filmpje Microbit Figuur
+ - Filmpje Microbit met Speaker en de code daarvan. 
+ - Filmpje Microbit Eindopdracht (Kompass)
