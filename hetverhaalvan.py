@@ -13,7 +13,6 @@ def main():
     print("")
 
     def question50():
-        print("")
         Repeat = input("Wil je opnieuw beginnen (A) of stoppen (B)? ")
 
         if Repeat == "A" or Repeat == "a":
@@ -48,7 +47,8 @@ def main():
         else:
             time.sleep(1)
             print("")
-            print("Onbekend toets ingevuld :(")
+            print("Onbekend toets ingevuld :( ")
+            print("")
             question1()
 
     def question2():
@@ -114,8 +114,15 @@ def main():
         time.sleep(1)
         print("")
         print("Je bent aan het overnachten in Turkije")
+        time.sleep(1)
         print("")
         print("Onbekende mensen zien jullie en bellen de politie.")
+        time.sleep(1)
+        print("")
+        print("")
+        print("Je hebt een verkeerde keus gemaakt. Game Over ")
+        print("")
+        question50()
 
     def question6():
         Vraag6 = input("Je bent nu in EU. Wil je naar Nederland (N) of Polen (P)? ")
@@ -138,19 +145,27 @@ def main():
         
     def question7():
         print("")
-        print("")
         print("Welkom in Nederland")
         print("")
         time.sleep(1)
         print("Je komt in Nederland Terecht")
+        print("")
+        print("")
+        time.sleep(1)
+        print("Gefeliciteerd, je hebt 1 van de goedde eindes gevonden. ")
+        question50()
         
     def question8():
-        print("")
         print("")
         print("Welkom in Polen")
         print("")
         time.sleep(1)
         print("Je komt in Polen terecht ")
+        print("")
+        print("")
+        time.sleep(1)
+        print("Je hebt een verkeerde keus gemaakt. Game Over ")
+        question50()
 
     def question9():
         Vraag9 = input("Je bent nu in Griekenland. Wil je met de boot (B) of ga je lopend naar Griekenland (L) ")
@@ -158,11 +173,13 @@ def main():
         if Vraag9 == "B" or Vraag9 == "b":
             print("")
             print("")
+            time.sleep(1)
             question10()
 
         elif Vraag9 == "L" or Vraag9 == "l":
             print("")
             print("")
+            time.sleep(1)
             question11()
         
         else:
@@ -177,30 +194,35 @@ def main():
         if Vraag10 == "O" or Vraag10 == "o":
             print("")
             print("Je gaat nu naar het Noord oosten")
+            print("")
+            question15()
+            
 
         elif Vraag10 == "W" or Vraag10 == "w":
             print("")
             print("Je gaat nu naar het Noordwesten")
+            print("")
+            question15()
 
         else:
             question10()
         
     def question11():
+        print("Je wordt gebracht")
         print("")
-        print("Dit is 4")
+        print("Je komt op het eiland lesbos")
         print("")
-        print("Dit is 12")
         print("")
-        Vraag11 = input("Wil je naar 13 of 14? ")
+        Vraag11 = input("Zoek je ruzie (R) of maak je vrienden (V)? ")
 
-        if Vraag11 == "13":
+        if Vraag11 == "R" or Vraag11 == "r":
             print("")
-            print("Dit is 13")
+            print("ruzie")
             question14()
 
-        elif Vraag11 == "14":
+        elif Vraag11 == "V" or Vraag11 == "v":
             print("")
-            print("Dit is 14")
+            print("Maak vrienden")
             question14()
 
         else:
@@ -208,16 +230,26 @@ def main():
             
     def question12():
         print("Je bent Turkije aan het verkennen ")
+        time.sleep(1)
         print("")
         print("Iemand ziet jullie en je wordt weggestuurd")
+        time.sleep(1)
+        print("")
+        print("")
+        print("Je hebt een verkeerde keus gemaakt. Game Over. ")
+        print("")
+        question50()
+        
 
     def question13():
         Vraag13 = input("Je bent in de vliegtuig naar Europa. Wil je naar Polen (P) of Nederland (N)? ")
 
         if Vraag13 == "P" or Vraag13 == "p":
+            time.sleep(1)
             question8()
 
         elif Vraag13 == "N" or Vraag13 == "n":
+            time.sleep(1)
             question7()
 
         else:
@@ -225,10 +257,25 @@ def main():
             question13()
 
     def question14():
+        time.sleep(1)
         print("")
-        time.sleep(2)
-        print("Dit is 15")
+        print("")
+        print("Je hebt een verkeerde keus gemaakt. Game Over. ")
+        time.sleep(1)
+        print("")
+        question50()
         
+
+    def question15():
+        time.sleep(1)
+        print("Zeewacht")
+        print("")
+        time.sleep(1)
+        print("")
+        question14()
+        print("")
+        time.sleep(1)
+        question50()
     
     question1()
 main()
