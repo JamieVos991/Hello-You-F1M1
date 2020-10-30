@@ -1,4 +1,4 @@
-Introductie = ('Hallo Dit is mijn eindproduct gebasseerd over het verhaal Zafel. De Syrische dichter Zafer deelt zijn aangrijpende vluchtverhaal op basis- en middelbare scholen. Die voorlichtingslessen verzorgt hij samen met vrijwilliger Harry, die inmiddels naadloos is ingespeeld op Zafers bijzondere en beeldende vertellingen. ''Ik wil dat leerlingen echt ervaren hoe angst, vluchten en hoop voelt.')
+Introductie = ('Hallo Dit is mijn eindproduct gebaseerd over het verhaal Zafel. De Syrische dichter Zafer deelt zijn aangrijpende vluchtverhaal op basis- en middelbare scholen. ''Ik wil dat leerlingen echt ervaren hoe angst, vluchten en hoop voelt.' ' Door de aangegeven letters te typen ga je door het verhaal.')
 
 import time
 import os 
@@ -29,7 +29,7 @@ def main():
             question50()
 
     def question1():
-        Vraag1 = input("Wil je graag naar het volgende Stukje (A) of stoppen (B). ")
+        Vraag1 = input("Wil je graag het verhaal beginnen (A) of stoppen (B). ")
 
         if Vraag1 == "A" or Vraag1 == "a":
             time.sleep(1)
@@ -52,7 +52,7 @@ def main():
             question1()
 
     def question2():
-        Vraag2 = input("Er is oorlog in jouw thuis land. Je moet vluchten, naar welk land ga je? Turkije (T) of Griekenland (G)?. ")
+        Vraag2 = input("Jouw stad is in puin en er is oorlog in jouw thuis land. Je moet vluchten, naar welk land ga je? Turkije (T) of Griekenland (G)?. ")
         
         if Vraag2 == "T" or Vraag2 == "t":
             time.sleep(1)
@@ -72,11 +72,12 @@ def main():
             print("")
             print("")
             print("Onbekend Toets Ingevuld :(")
+            print("")
             question2()
 
 
     def question3():
-        Vraag3 = input("Je zit te denken. Ga ik verder te voet in Turkije (V) of ga ik met de vliegtuig naar Europa (E)? ")
+        Vraag3 = input("Het is het is heel warm. Je krijgt een aanbod om met de vliegtuig naar Europa te gaan maar naar waar weet je nog niet. Je zit te denken, ga ik verder te voet in Turkije (V) of ga ik met de vliegtuig naar Europa (E)? ")
 
         if Vraag3 == "V" or Vraag3 == "v":
             time.sleep(1)
@@ -95,7 +96,7 @@ def main():
             question3()
 
     def question4():
-        Vraag4 = input("Het is 1 uur in de nacht. Ga je Turkije meer verkennen (V) of overnachten (O)?. ")
+        Vraag4 = input("Het is 1 uur in de nacht. Alle lichten staan uit behalve de straat lampen. Ga je Turkije meer verkennen (V) of ga je een plek zoeken om te overnachten (O)? ")
 
         if Vraag4 == "V" or Vraag4 == "v":
             print("")
@@ -108,15 +109,18 @@ def main():
 
         else:
             time.sleep(0)
+            print("")
+            print("Onbekend toets ingevuld :( ")
+            print("")
             question4()
 
     def question5():
         time.sleep(1)
         print("")
-        print("Je bent aan het overnachten in Turkije")
+        print("Je bent aan het overnachten op een vreemde plek zonder toesteming ")
         time.sleep(1)
         print("")
-        print("Onbekende mensen zien jullie en bellen de politie.")
+        print("Onbekende mensen zien jullie en bellen de politie. Je wordt opgepakt en terug gestuurd naar jouw thuisland waar oorlog was. ")
         time.sleep(1)
         print("")
         print("")
@@ -125,8 +129,8 @@ def main():
         question50()
 
     def question6():
-        Vraag6 = input("Je bent nu in EU. Wil je naar Nederland (N) of Polen (P)? ")
-
+        Vraag6 = input("Je bent met de vliegtuig van Turkije naar Duitsland gegaan. Je krijgt weer een aanbod van waar je wilt verblijven. De keuze luid als volgt: Wil je naar Nederland (N) of Polen (P)? ")
+  
         if Vraag6 == "N" or Vraag6 == "n":
             time.sleep(1)
             print("")
@@ -145,14 +149,14 @@ def main():
         
     def question7():
         print("")
-        print("Welkom in Nederland")
+        print("Welkom in Nederland. De land van de kaas, klompen en tulpen. ")
         print("")
         time.sleep(1)
-        print("Je komt in Nederland Terecht")
+        print("Je komt aan in Schiphol en het is allemaal heel nieuw voor jou. Je wond naar een huis gestuurd met andere mede vluchtelingen. Je bent blij met de keuze die je hebt gemaakt. ")
         print("")
         print("")
         time.sleep(1)
-        print("Gefeliciteerd, je hebt 1 van de goedde eindes gevonden. ")
+        print("Gefeliciteerd, je hebt 1 van de goedde eindes gevonden! ")
         question50()
         
     def question8():
@@ -160,8 +164,8 @@ def main():
         print("Welkom in Polen")
         print("")
         time.sleep(1)
-        print("Je komt in Polen terecht ")
-        print("")
+        print("Je komt aan in Warshau Airport. Mensen die jou begelijden zijn heel bot tegen jou en je krijgt spijt van de keuze die je hebt gemaakt. ")
+        print("") 
         print("")
         time.sleep(1)
         print("Je hebt een verkeerde keus gemaakt. Game Over ")
@@ -188,19 +192,19 @@ def main():
 
     def question10():
         time.sleep(1)
-        print("Met de boot")
+        print("Je bent onderweg aan het lopen om met de boot te gaan. Je hebt een slecht gevoel dat je het wel gaat redden van de ene naar de andere kant met de boot omdat het illegaal kan zijn. ")
         print("")
-        Vraag10 = input("Je bent nu met de boot naar Griekenland. Wil je naar het NO (O) of NW (W)? ")
+        Vraag10 = input("Je bent nu op de boot met andere vluchtelingen naar Griekenland. Wil je naar het Noord-oosten (O) of Noord-westenm (W)? ")
         if Vraag10 == "O" or Vraag10 == "o":
             print("")
-            print("Je gaat nu naar het Noord oosten")
+            print("Je gaat nu richting het Noord oosten")
             print("")
             question15()
             
 
         elif Vraag10 == "W" or Vraag10 == "w":
             print("")
-            print("Je gaat nu naar het Noordwesten")
+            print("Je gaat nu richting het Noordwesten")
             print("")
             question15()
 
@@ -208,31 +212,31 @@ def main():
             question10()
         
     def question11():
-        print("Je wordt gebracht")
+        print("Iemand bied zich vrijwillig aan om jou te brengen met de auto naar het eiland Lesbos. ")
         print("")
-        print("Je komt op het eiland lesbos")
+        print("Je komt op het eiland lesbos ")
         print("")
         print("")
         Vraag11 = input("Zoek je ruzie (R) of maak je vrienden (V)? ")
 
         if Vraag11 == "R" or Vraag11 == "r":
             print("")
-            print("ruzie")
+            print("Je bent onderweg naar iemand en je zegt: Je bent lelijk man. De andere man wordt boos en je raakt in een gevecht. ")
             question14()
 
         elif Vraag11 == "V" or Vraag11 == "v":
             print("")
-            print("Maak vrienden")
+            print("Je bent onderweg naar iemand en probeert een vriendschap te creeren ")
             question14()
 
         else:
             question11()
             
     def question12():
-        print("Je bent Turkije aan het verkennen ")
+        print("Je loopt meer het land in met je mede vluchtelingen. Als iemand die niet bij het land behoort mag dit niet. ")
         time.sleep(1)
         print("")
-        print("Iemand ziet jullie en je wordt weggestuurd")
+        print("Iemand van de politie ziet jullie en je wordt weggestuurd")
         time.sleep(1)
         print("")
         print("")
@@ -242,7 +246,7 @@ def main():
         
 
     def question13():
-        Vraag13 = input("Je bent in de vliegtuig naar Europa. Wil je naar Polen (P) of Nederland (N)? ")
+        Vraag13 = input("Je bent met de vliegtuig van Turkijke naar Duitsland gegaan. Je krijgt weer een aanbod van waar je wilt verblijven. De keuze luid als volgt: Wil je naar Nederland (N) of Polen (P)? ")
 
         if Vraag13 == "P" or Vraag13 == "p":
             time.sleep(1)
@@ -268,7 +272,7 @@ def main():
 
     def question15():
         time.sleep(1)
-        print("Zeewacht")
+        print("Je bent aan het varen op de middelandse zee. Plotseling komt er Zee wacht en je wordt weggestuurd. ")
         print("")
         time.sleep(1)
         print("")
