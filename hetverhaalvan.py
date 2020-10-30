@@ -20,7 +20,7 @@ def main():
         
         elif Repeat == "B" or Repeat == "b":
             print("")
-            print("OKI, DOEI")
+            print("Oke, doei!")
             exit()
 
         else:
@@ -164,7 +164,7 @@ def main():
         print("Welkom in Polen")
         print("")
         time.sleep(1)
-        print("Je komt aan in Warshau Airport. Mensen die jou begelijden zijn heel bot tegen jou en je krijgt spijt van de keuze die je hebt gemaakt. ")
+        print("Je komt aan in Warschau Airport. Mensen die jou begeleiden zijn heel bot tegen jou en je krijgt spijt van de keuze die je hebt gemaakt. ")
         print("") 
         print("")
         time.sleep(1)
@@ -194,7 +194,7 @@ def main():
         time.sleep(1)
         print("Je bent onderweg aan het lopen om met de boot te gaan. Je hebt een slecht gevoel dat je het wel gaat redden van de ene naar de andere kant met de boot omdat het illegaal kan zijn. ")
         print("")
-        Vraag10 = input("Je bent nu op de boot met andere vluchtelingen naar Griekenland. Wil je naar het Noord-oosten (O) of Noord-westenm (W)? ")
+        Vraag10 = input("Je bent nu op de boot met andere vluchtelingen naar Griekenland. Wil je naar het Noordoosten (O) of Noordwesten (W)? ")
         if Vraag10 == "O" or Vraag10 == "o":
             print("")
             print("Je gaat nu richting het Noord oosten")
@@ -214,7 +214,7 @@ def main():
     def question11():
         print("Iemand bied zich vrijwillig aan om jou te brengen met de auto naar het eiland Lesbos. ")
         print("")
-        print("Je komt op het eiland lesbos ")
+        print("Je komt op het eiland Lesbos ")
         print("")
         print("")
         Vraag11 = input("Zoek je ruzie (R) of maak je vrienden (V)? ")
@@ -226,7 +226,7 @@ def main():
 
         elif Vraag11 == "V" or Vraag11 == "v":
             print("")
-            print("Je bent onderweg naar iemand en probeert een vriendschap te creeren ")
+            print("Je bent onderweg naar iemand en probeert een vriendschap te creëren ")
             question14()
 
         else:
@@ -246,7 +246,7 @@ def main():
         
 
     def question13():
-        Vraag13 = input("Je bent met de vliegtuig van Turkijke naar Duitsland gegaan. Je krijgt weer een aanbod van waar je wilt verblijven. De keuze luid als volgt: Wil je naar Nederland (N) of Polen (P)? ")
+        Vraag13 = input("Je bent met de vliegtuig van Turkije naar Duitsland gegaan. Je krijgt weer een aanbod van waar je wilt verblijven. De keuze luid als volgt: Wil je naar Nederland (N) of Polen (P)? ")
 
         if Vraag13 == "P" or Vraag13 == "p":
             time.sleep(1)
@@ -272,7 +272,7 @@ def main():
 
     def question15():
         time.sleep(1)
-        print("Je bent aan het varen op de middelandse zee. Plotseling komt er Zee wacht en je wordt weggestuurd. ")
+        print("Je bent aan het varen op de Middellandse zee. Plotseling komt er Zee wacht en je wordt weggestuurd. ")
         print("")
         time.sleep(1)
         print("")
