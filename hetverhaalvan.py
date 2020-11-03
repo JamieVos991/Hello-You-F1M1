@@ -12,13 +12,13 @@ def main():
 
     print("")
 
-    def question50():
-        Repeat = input("Wil je opnieuw beginnen (A) of stoppen (B)? ")
+    def opnieuw():
+        opnieuw = input("Wil je opnieuw beginnen (A) of stoppen (B)? ")
 
-        if Repeat == "A" or Repeat == "a":
+        if opnieuw == "A" or opnieuw == "a":
             main()
         
-        elif Repeat == "B" or Repeat == "b":
+        elif opnieuw == "B" or opnieuw == "b":
             print("")
             print("Oke, doei!")
             exit()
@@ -26,7 +26,7 @@ def main():
         else:
             print("")
             print("Niks ingevuld...")
-            question50()
+            opnieuw()
 
     def question1():
         Vraag1 = input("Wil je graag het verhaal beginnen (A) of stoppen (B). ")
@@ -41,7 +41,7 @@ def main():
         elif Vraag1 == "B" or Vraag1 == "b":
             print("")
             print("")
-            question50()
+            opnieuw()
             print("")
 
         else:
@@ -126,7 +126,7 @@ def main():
         print("")
         print("Je hebt een verkeerde keus gemaakt. Game Over ")
         print("")
-        question50()
+        opnieuw()
 
     def question6():
         Vraag6 = input("Je bent met de vliegtuig van Turkije naar Duitsland gegaan. Je krijgt weer een aanbod van waar je wilt verblijven. De keuze luid als volgt: Wil je naar Nederland (N) of Polen (P)? ")
@@ -157,7 +157,7 @@ def main():
         print("")
         time.sleep(1)
         print("Gefeliciteerd, je hebt 1 van de goedde eindes gevonden! ")
-        question50()
+        opnieuw()
         
     def question8():
         print("")
@@ -169,7 +169,7 @@ def main():
         print("")
         time.sleep(1)
         print("Je hebt een verkeerde keus gemaakt. Game Over ")
-        question50()
+        opnieuw()
 
     def question9():
         Vraag9 = input("Je bent nu in Griekenland. Wil je met de boot (B) of ga je lopend naar Griekenland (L) ")
@@ -242,7 +242,7 @@ def main():
         print("")
         print("Je hebt een verkeerde keus gemaakt. Game Over. ")
         print("")
-        question50()
+        opnieuw()
         
 
     def question13():
@@ -267,7 +267,7 @@ def main():
         print("Je hebt een verkeerde keus gemaakt. Game Over. ")
         time.sleep(1)
         print("")
-        question50()
+        opnieuw()
         
 
     def question15():
@@ -279,7 +279,7 @@ def main():
         question14()
         print("")
         time.sleep(1)
-        question50()
+        opnieuw()
     
     question1()
 main()
