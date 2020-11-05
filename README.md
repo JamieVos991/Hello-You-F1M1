@@ -10,6 +10,7 @@ Ik vind het zelf moeilijke maar leuke opdrachten.
 ----------------------------------
  - Github Link 
  - Flowchart van het eindproduct
+ - Presentatie, Text-based applicatie en Reflectie. 
  ---------------------------------
  - Filmpje Microbit Figuur
  - Filmpje Microbit met Speaker en de code daarvan. 
