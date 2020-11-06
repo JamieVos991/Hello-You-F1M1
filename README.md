@@ -17,7 +17,7 @@ Ik vind het zelf moeilijke maar leuke opdrachten.
  - Filmpje Microbit Eindopdracht (Kompass)
  ---------------------------------
  - Hello You.py 
- - Ditbenik.py en uitbreiding daarvan. 
+ - Ditbenik.py en de uitbreiding daarvan. 
  - Hetverhaalvan.py
  ---------------------------------
  - Ik als nieuwkomer op Mediacollege
