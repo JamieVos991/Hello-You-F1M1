@@ -1,11 +1,9 @@
 ## Beroepsproduct uitleg
 
-Dit is mijn eerste schoolopdracht voor de opleiding Softwaredeveloper. 
-Het Mediacollege Amsterdam is mijn opdrachtgever. Alle code opdrachten zijn met Python gemaakt.
+This is my first school assignment for the Software development programme. Mediacollege Amsterdam is my client. All code commands are created with Python.
 
-Ik vind het zelf moeilijke maar leuke opdrachten. 
 
-### Opdrachten in deze repository:
+### Files in this repository:
 ###
 ----------------------------------
  - Github Link 
